@@ -113,7 +113,7 @@ on:
 env:
   FIRMWARE_AUTHOR: TurBoTse
   TOOLCHAIN: ${{ inputs.toolchain }}
-  TOOLCHAIN_URL: https://github.com/TurBoTse/padavan/releases/download/toolchain/${{ inputs.toolchain }}.tar.xz
+  TOOLCHAIN_URL: https://github.com/matthew-gitt/padavan-turboorg/releases/download/toolchain/${{ inputs.toolchain }}.tar.xz
   CONFIGFILE: trunk/configs/templates/${{ inputs.target }}.config
 
 jobs:
@@ -131,7 +131,7 @@ jobs:
           fetch-depth: 1
       - uses: actions/checkout@main
         with:
-          repository: TurBoTse/padavan
+          repository: matthew-gitt/padavan-turboorg
           ref: main
           fetch-depth: 1
 
