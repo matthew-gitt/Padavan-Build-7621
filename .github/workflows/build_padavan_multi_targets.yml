@@ -26,6 +26,7 @@ on:
         description: "1000Mhz=0x312 1100Mhz=0x362 1120Mhz=0x372 1200Mhz=0x3B2"
         type: choice
         options: [ '0x312', '0x362', '0x372', '0x3B2' ]
+        default: '0x372'
       plugins:
         description: 'Plugin JSON, e.g. {"ss":"y","xray":"n"}'
         required: true
