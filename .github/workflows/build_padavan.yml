@@ -88,7 +88,7 @@ on:
         description: 'Plugin JSON, e.g. {"ss":"y","xray":"n"}'
         required: true
         type: string
-        default: '{"softether_vpnserver":"y","softether_cmd":"y","shadowsocks":"n","v2ray":"n","xray":"n","trojan":"n","ssobfs":"y","smartdns":"y","vlmcsd":"y","ttyd":"n","iperf3":"n","napt66":"y","socat":"n"}'
+        default: '{"softether_vpnserver":"y","softether_cmd":"y","softether_client":"y","ssobfs":"y","smartdns":"y","vlmcsd":"y","ttyd":"n","iperf3":"n","napt66":"y","socat":"y"}'
       customization:
         description: 'Customization JSON'
         required: true
